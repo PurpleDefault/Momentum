@@ -19,7 +19,7 @@ body {
 /* MAIN STYLES ----------------------------------------------------------- */
 header {
   text-align: center;
-  background: url(../images/bg.jpg);
+  background-image: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(28,87,171,0.7245273109243697) 38%, rgba(145,145,145,1) 100%), url(../images/bg.jpg);
   background-size: cover;
   color: #FFF;
   padding: 1.75rem 2rem 4rem 2rem;
