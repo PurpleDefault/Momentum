@@ -176,4 +176,12 @@ form input:focus {
     padding: 3rem;
   }
 
+  form label {
+    font-size: 1.25rem;
+  }
+
+  form input {
+    height: 3.25rem;
+  }
+
 }
