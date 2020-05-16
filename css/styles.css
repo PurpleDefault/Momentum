@@ -64,8 +64,19 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.form_text {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.form_text h3 {
+  font-weight: 400;
+  margin-top: 0.75rem;
+}
+
 form {
   padding: 7.5%;
+  margin-top: 1.75rem;
   border-radius: 0.5rem;
   box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.25);
   background: #FFF;
@@ -73,27 +84,96 @@ form {
 }
 
 form label {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 form section {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 form input {
   width: 100%;
-  height: 2.5rem;
+  height: 2.75rem;
   border-radius: 0.5rem;
-  padding: 15px;
+  padding: 12.5px;
+  border: 1px solid #333333;
+  transition-duration: 0.25s;
+}
+
+form input:focus {
+  border-bottom: 5px solid #6B88F0;
 }
 
 #signUp {
+  margin-top: 1.25rem;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   border-radius: 0.5rem;
+  border: 3px solid #6B88F0;
   width: 100%;
   padding: 7.5%;
   font-weight: 300;
-  color: #fff;
+  color: #6B88F0;
+  background: none;
+  transition-duration: 0.5s;
+}
+
+#signUp:hover {
   background: #6B88F0;
+  color: #FFFFFF;
+}
+
+@media (min-width: 380px) {
+  header h1 {
+    font-size: 3.75rem;
+  }
+
+  header h2 {
+    font-size: 1.75rem;
+  }
+
+  nav {
+    font-size: 1.5rem;
+  }
+
+  form {
+    max-width: 440px;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .text {
+    max-width: 520px;
+    margin: auto;
+  }
+
+  .form_text {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 740px) {
+  nav ul {
+    text-align: right;
+  }
+
+  header h1 {
+    font-size: 4rem;
+  }
+
+  header h2 {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    max-width: 800px;
+    font-size: 1.5rem;
+  }
+
+  form {
+    max-width: 550px;
+    padding: 3rem;
+  }
+
 }
